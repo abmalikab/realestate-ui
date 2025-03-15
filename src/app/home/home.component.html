@@ -1,0 +1,9 @@
+<p>home works!</p>
+<div class="property-list">
+    <div *ngFor="let property of properties" class="property-card">
+      <img [src]="property.imageUrl" alt="Property Image">
+      <h3>{{ property.title }}</h3>
+      <p>{{ property.price }} - {{ property.details }}</p>
+    </div>
+  </div>
+  
